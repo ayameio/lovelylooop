@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import { Fredoka } from "next/font/google";
+import { Fredoka, Quando } from "next/font/google";
 import "./globals.css";
 
-const inter = Fredoka({ subsets: ["latin"] });
+const fredoka = Fredoka({ subsets: ["latin"] });
+const quando = Quando({
+  subsets: ["latin"],
+  weight: "400"
+});
 
 export const metadata: Metadata = {
   title: "lovelylooop",
@@ -16,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={fredoka.className}>{children}</body>
     </html>
   );
 }
