@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Badge } from "@/components/ui/badge"
 
 import {
 	Card,
@@ -17,8 +18,8 @@ export default function Home() {
 	return (
 		<main className="flex flex-col space-y-16 mb-16">
 			<Navbar/>
-			<div>
-				<img src="/webArtboard.png" alt="" />
+			<div className="flex justify-center">
+				<img src="/lll.png" alt="" width={"512px"} height={"512px"}/>
 			</div>
 			<About></About>
 
@@ -34,6 +35,9 @@ export default function Home() {
 								Your browser does not support the video tag.
 						</video>
 					</CardContent>
+					<CardFooter>
+						<Badge variant="outline">Consumable</Badge>
+					</CardFooter>
 				</Card>
 				<Card>
 					<CardHeader>
@@ -46,11 +50,15 @@ export default function Home() {
 								Your browser does not support the video tag.
 						</video>
 					</CardContent>
+					<CardFooter>
+						<Badge variant="outline">Wearable</Badge>
+						<Badge variant="outline">Weapon</Badge>
+					</CardFooter>
 				</Card>
 				<Card>
 					<CardHeader>
 						<CardTitle>maomao Originals #408</CardTitle>
-						<CardDescription>Thunderhorn</CardDescription>
+						<CardDescription>Necromancer Mask</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
 						<video width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
@@ -58,11 +66,15 @@ export default function Home() {
 								Your browser does not support the video tag.
 						</video>
 					</CardContent>
+					<CardFooter>
+						<Badge variant="outline">Wearable</Badge>
+						<Badge variant="outline">Helmet</Badge>
+					</CardFooter>
 				</Card>
 				<Card>
 					<CardHeader>
 						<CardTitle>maomao Originals #468</CardTitle>
-						<CardDescription>???</CardDescription>
+						<CardDescription>Feather Earrings</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
 						<video width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
@@ -70,6 +82,10 @@ export default function Home() {
 								Your browser does not support the video tag.
 						</video>
 					</CardContent>
+					<CardFooter>
+						<Badge variant="outline">Wearable</Badge>
+						<Badge variant="outline">Earrings</Badge>
+					</CardFooter>
 				</Card>
 			</div>
 			<CollectionInfo/>
