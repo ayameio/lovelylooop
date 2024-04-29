@@ -5,12 +5,16 @@ import "./globals.css";
 const fredoka = Fredoka({ subsets: ["latin"] });
 const quando = Quando({
   subsets: ["latin"],
-  weight: "400"
+  weight: "400",
+  variable: '--font-quando'
 });
 
 export const metadata: Metadata = {
   title: "lovelylooop",
   description: "web3 gaming brand",
+  icons: {
+    icon: "/icons/icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -20,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={fredoka.className}>{children}</body>
+      <body className={`${fredoka.className}`}>{children}</body>
     </html>
   );
 }

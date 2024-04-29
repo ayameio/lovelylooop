@@ -1,10 +1,20 @@
-import { Fredoka, Quando } from 'next/font/google'
+import { Fredoka, Quando, Nunito_Sans, Montserrat_Alternates } from 'next/font/google'
 
 export const fredoka = Fredoka({
 	subsets: ['latin'],
 })
 
+export const nunito_sans = Nunito_Sans({
+	subsets: ['latin'],
+})
+
+export const montserrat_alt = Montserrat_Alternates({
+	subsets: ['latin'],
+	weight: '100'
+})
+
 export const quando = Quando({
 	subsets: ["latin"],
-	weight: "400"
+	weight: "400",
+	variable: '--font-quando'
 });

@@ -73,4 +73,15 @@
     body {
       @apply bg-background text-foreground;
     }
+    p {
+      font-family: var(--font-quando);
+    }
+    :root {
+      --pink: 248 151 218;
+      --green: 1 205 170;
+      --yellow: 234 198 88;
+      --blue: 3 198 254;
+      --violet: 148 116 217;
+      --red: 251 87 77;
+    }
   }
