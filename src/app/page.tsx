@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge"
-
+import { nunito_sans, quando } from "@/app/fonts"
 import {
 	Card,
 	CardContent,
@@ -29,7 +29,7 @@ export default function Home() {
 				<Card>
 					<CardHeader>
 						<CardTitle>maomao Originals #533</CardTitle>
-						<CardDescription>S'MORES</CardDescription>
+						<CardDescription>S&apos;MORES</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
 						<video width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
@@ -106,7 +106,7 @@ export default function Home() {
 			</div>
 			<CollectionInfo/>
 			<div className="flex items-center flex-col space-y-8">
-				<h1 className="text-2xl font-bold text-center">You wanna be here</h1>
+				<h1 className={`${quando.className} text-xl text-center`}>You wanna be here</h1>
 				<div className="flex flex-row justify-center gap-2">
 					<a href="https://t.me/lovelylooop" target="_blank">
 						<img src="telegram.svg" alt="" width={"32px"} height={"32px"}/>

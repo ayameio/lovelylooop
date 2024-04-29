@@ -24,6 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="/icons/icon.png" type="image/png" />
+      </head>
       <body className={`${fredoka.className}`}>{children}</body>
     </html>
   );
