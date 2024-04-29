@@ -8,13 +8,13 @@ export default function Navbar() {
 					<p>lovelylooop</p>
 				</a>
 				<nav className="hidden md:flex space-x-8 flex-row justify-center">
-					<a className="text-blue relative text-sm font-semibold w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-blue after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="#">
+					<a className="relative text-sm font-semibold w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-blue after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="#">
 						Mint
 					</a>
-					<a className="text-violet relative text-sm font-semibold w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-violet after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="#">
+					<a className="relative text-sm font-semibold w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-violet after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="#">
 						Collections
 					</a>
-					<a className="text-red relative text-sm font-semibold w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-red after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="https://ayameio.github.io/maomao-docs" target="_blank">
+					<a className="relative text-sm font-semibold w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-red after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="https://ayameio.github.io/maomao-docs" target="_blank">
 						Docs
 					</a>
 				</nav>
