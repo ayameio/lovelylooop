@@ -106,7 +106,7 @@ export default function Home() {
 			</div>
 			<CollectionInfo/>
 			<div className="flex items-center flex-col space-y-8">
-				<h1 className="text-2xl font-bold text-center">Join our community</h1>
+				<h1 className="text-2xl font-bold text-center">You wanna be here</h1>
 				<div className="flex flex-row justify-center gap-2">
 					<a href="https://t.me/lovelylooop" target="_blank">
 						<img src="telegram.svg" alt="" width={"32px"} height={"32px"}/>
