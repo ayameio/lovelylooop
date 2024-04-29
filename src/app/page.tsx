@@ -32,7 +32,7 @@ export default function Home() {
 						<CardDescription>S&apos;MORES</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
-						<video width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
 							<source src="533.mp4" type="video/mp4"/>
 								Your browser does not support the video tag.
 						</video>
@@ -47,7 +47,7 @@ export default function Home() {
 						<CardDescription>Crystalblade</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
-						<video width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
 							<source src="394.mp4" type="video/mp4"/>
 								Your browser does not support the video tag.
 						</video>
@@ -63,7 +63,7 @@ export default function Home() {
 						<CardDescription>Necromancer Mask</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
-						<video width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
 							<source src="https://ayameio.github.io/maomao-docs/assets/371.DpERxqn9.mp4" type="video/mp4"/>
 								Your browser does not support the video tag.
 						</video>
@@ -79,7 +79,7 @@ export default function Home() {
 						<CardDescription>Potion</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
-						<video width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
 							<source src="531.mp4" type="video/mp4"/>
 								Your browser does not support the video tag.
 						</video>
@@ -94,7 +94,7 @@ export default function Home() {
 						<CardDescription>Key</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
-						<video width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
 							<source src="135.mp4" type="video/mp4"/>
 								Your browser does not support the video tag.
 						</video>
