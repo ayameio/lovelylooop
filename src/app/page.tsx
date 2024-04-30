@@ -106,7 +106,7 @@ export default function Home() {
 			</div>
 			<CollectionInfo/>
 			<div className="flex items-center flex-col space-y-8">
-				<h1 className={`${quando.className} text-xl text-center`}>You wanna be here</h1>
+				<h1 className={`${quando.className} text-sm text-center`}>You wanna be here</h1>
 				<div className="flex flex-row justify-center gap-2">
 					<a href="https://t.me/lovelylooop" target="_blank">
 						<img src="telegram.svg" alt="" width={"32px"} height={"32px"}/>

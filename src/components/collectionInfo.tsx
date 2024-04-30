@@ -5,7 +5,12 @@ export default function CollectionInfo() {
 	return (
 		<div className="flex justify-center items-center">
 			<div className="max-w-4xl w-3/4 space-y-6">
+				<div className="flex flex-row gap-2 justify-center items-center">
+				<div className="size-4 bg-red rounded-sm"></div>
+					<div className="size-4 bg-blue rounded-sm"></div>
+					<div className="size-4 bg-violet rounded-sm"></div>
 				<h1 className="text-4xl font-bold text-center">What&apos;s maomao Originals?</h1>
+				</div>
 				<div className="flex flex-row">
 					<h2 className={`${quando.className} text-xl text-left`}>Description</h2>
 				</div>
