@@ -3,8 +3,8 @@ import { nunito_sans } from '../app/fonts'
 export default function About() {
 	return (
 		<div className="flex justify-center items-center">
-			<div className="max-w-4xl w-3/4 space-y-6 flex flex-col">
-				<div className='flex flex-row justify-left items-center gap-2'>
+			<div className='max-w-4xl w-3/4 space-y-6'>
+				<div className="flex flex-col gap-2 justify-left items-center md:flex-row">
 					<div className="size-4 bg-yellow rounded-sm min-w-4 min-h-4"></div>
 					<div className="size-4 bg-green rounded-sm min-w-4 min-h-4"></div>
 					<div className="size-4 bg-pink rounded-sm min-w-4 min-h-4"></div>
