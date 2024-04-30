@@ -20,12 +20,12 @@ export default function Home() {
 			<Navbar/>
 			<div className="flex justify-center">
 				{/* <img src="/lll-2.png" alt="" width={"512px"} height={"512px"}/> */}
-				<img src="/lll-4.svg" alt="" width={"1024px"} height={"1024px"}/>
+				<img src="/lll-9.svg" alt="" width={"1024px"} height={"1024px"}/>
 				{/* <img src="/lll-4.svg" alt=""/> */}
 			</div>
 			<About></About>
 			{/* Cards */}
-			<div className="flex flex-row justify-center overflow-x-auto">
+			<div className="flex flex-row justify-center overflow-x-auto overscroll-auto md:overscroll-contain">
 				<Card>
 					<CardHeader>
 						<CardTitle>maomao Originals #533</CardTitle>
@@ -100,7 +100,7 @@ export default function Home() {
 						</video>
 					</CardContent>
 					<CardFooter>
-						<Badge className="bg-yellow text-black">Key</Badge>
+						<Badge className="bg-yellow">Key</Badge>
 					</CardFooter>
 				</Card>
 			</div>
