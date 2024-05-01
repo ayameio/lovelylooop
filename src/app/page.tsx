@@ -24,7 +24,7 @@ export default function Home() {
 				{/* <img src="/lll-4.svg" alt=""/> */}
 			</div>
 			<About></About>
-			{/* Cards */}
+			{/* Upper Cards */}
 			<div className="flex flex-row justify-center overflow-x-auto overscroll-auto md:overscroll-contain">
 				<Card>
 					<CardHeader>
@@ -105,6 +105,89 @@ export default function Home() {
 				</Card>
 			</div>
 			<CollectionInfo/>
+			{/* Lower Cards */}
+			<div className="flex flex-row justify-center overflow-x-auto overscroll-auto md:overscroll-contain">
+				<Card>
+					<CardHeader>
+						<CardTitle>maomao Originals #009</CardTitle>
+						<CardDescription>???</CardDescription>
+					</CardHeader>
+					<CardContent className="flex flex-col items-center">
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
+							<source src="009.mp4" type="video/mp4"/>
+								Your browser does not support the video tag.
+						</video>
+					</CardContent>
+					<CardFooter>
+						<Badge className="bg-blue">Wearable</Badge>
+						<Badge className="bg-green">Robe</Badge>
+					</CardFooter>
+				</Card>
+				<Card>
+					<CardHeader>
+						<CardTitle>maomao Originals #021</CardTitle>
+						<CardDescription>???</CardDescription>
+					</CardHeader>
+					<CardContent className="flex flex-col items-center">
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
+							<source src="021.mp4" type="video/mp4"/>
+								Your browser does not support the video tag.
+						</video>
+					</CardContent>
+					<CardFooter>
+						<Badge className="bg-blue">Wearable</Badge>
+						<Badge className="bg-green">Robe</Badge>
+					</CardFooter>
+				</Card>
+				<Card>
+					<CardHeader>
+						<CardTitle>maomao Originals #050</CardTitle>
+						<CardDescription>???</CardDescription>
+					</CardHeader>
+					<CardContent className="flex flex-col items-center">
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
+							<source src="050.mp4" type="video/mp4"/>
+								Your browser does not support the video tag.
+						</video>
+					</CardContent>
+					<CardFooter>
+						<Badge className="bg-blue">Wearable</Badge>
+						<Badge className="bg-green">Weapon</Badge>
+					</CardFooter>
+				</Card>
+				<Card>
+					<CardHeader>
+						<CardTitle>maomao Originals #065</CardTitle>
+						<CardDescription>???</CardDescription>
+					</CardHeader>
+					<CardContent className="flex flex-col items-center">
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
+							<source src="065.mp4" type="video/mp4"/>
+								Your browser does not support the video tag.
+						</video>
+					</CardContent>
+					<CardFooter>
+						<Badge className="bg-blue">Wearable</Badge>
+						<Badge className="bg-green">Off-Hand</Badge>
+					</CardFooter>
+				</Card>
+				<Card>
+					<CardHeader>
+						<CardTitle>maomao Originals #317</CardTitle>
+						<CardDescription>???</CardDescription>
+					</CardHeader>
+					<CardContent className="flex flex-col items-center">
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
+							<source src="317.mp4" type="video/mp4"/>
+								Your browser does not support the video tag.
+						</video>
+					</CardContent>
+					<CardFooter>
+						<Badge className="bg-blue">Wearable</Badge>
+						<Badge className="bg-green">Boots</Badge>
+					</CardFooter>
+				</Card>
+			</div>
 			<div className="flex items-center flex-col space-y-8">
 				<h1 className={`${quando.className} text-sm text-center`}>You wanna be here</h1>
 				<div className="flex flex-row justify-center gap-2">
