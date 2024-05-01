@@ -104,7 +104,10 @@ export default function Home() {
 					</CardFooter>
 				</Card>
 			</div>
-			<CollectionInfo/>
+			<div className="flex flex-col xl:flex-row justify-center items-center gap-4 w-3/4 self-center">
+				<img src="/web-parcel-dist.png" alt="" width={"512px"} height={"512px"}/>
+				<CollectionInfo/>
+			</div>
 			{/* Lower Cards */}
 			<div className="flex flex-row justify-center overflow-x-auto overscroll-auto md:overscroll-contain">
 				<Card>
