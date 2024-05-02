@@ -13,28 +13,29 @@ import Navbar from "@/components/navbar";
 import Head from "next/head";
 import About from "@/components/about";
 import CollectionInfo from "@/components/collectionInfo";
+import Future from "./future";
 
 export default function Home() {
 	return (
 		<main className="flex flex-col space-y-16 mb-16">
-			<Navbar/>
+			<Navbar />
 			<div className="flex justify-center">
 				{/* <img src="/lll-2.png" alt="" width={"512px"} height={"512px"}/> */}
-				<img src="/lll-9.svg" alt="" width={"1024px"} height={"1024px"}/>
+				<img src="/lll-9.svg" alt="" width={"1024px"} height={"1024px"} />
 				{/* <img src="/lll-4.svg" alt=""/> */}
 			</div>
 			<About></About>
 			{/* Upper Cards */}
-			<div className="flex flex-row justify-center overflow-x-auto overscroll-auto md:overscroll-contain">
+			<div className="flex flex-row justify-center overflow-x-auto overscroll-auto md:overscroll-contain w-3/4 self-center">
 				<Card>
 					<CardHeader>
 						<CardTitle>maomao Originals #533</CardTitle>
 						<CardDescription>S&apos;MORES</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
-						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
-							<source src="533.mp4" type="video/mp4"/>
-								Your browser does not support the video tag.
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{ margin: '10px' }}>
+							<source src="533.mp4" type="video/mp4" />
+							Your browser does not support the video tag.
 						</video>
 					</CardContent>
 					<CardFooter>
@@ -47,9 +48,9 @@ export default function Home() {
 						<CardDescription>Crystalblade</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
-						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
-							<source src="394.mp4" type="video/mp4"/>
-								Your browser does not support the video tag.
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{ margin: '10px' }}>
+							<source src="394.mp4" type="video/mp4" />
+							Your browser does not support the video tag.
 						</video>
 					</CardContent>
 					<CardFooter>
@@ -63,9 +64,9 @@ export default function Home() {
 						<CardDescription>Necromancer Mask</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
-						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
-							<source src="https://ayameio.github.io/maomao-docs/assets/371.DpERxqn9.mp4" type="video/mp4"/>
-								Your browser does not support the video tag.
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{ margin: '10px' }}>
+							<source src="https://ayameio.github.io/maomao-docs/assets/371.DpERxqn9.mp4" type="video/mp4" />
+							Your browser does not support the video tag.
 						</video>
 					</CardContent>
 					<CardFooter>
@@ -79,9 +80,9 @@ export default function Home() {
 						<CardDescription>Potion</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
-						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
-							<source src="531.mp4" type="video/mp4"/>
-								Your browser does not support the video tag.
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{ margin: '10px' }}>
+							<source src="531.mp4" type="video/mp4" />
+							Your browser does not support the video tag.
 						</video>
 					</CardContent>
 					<CardFooter>
@@ -94,9 +95,9 @@ export default function Home() {
 						<CardDescription>Key</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
-						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
-							<source src="135.mp4" type="video/mp4"/>
-								Your browser does not support the video tag.
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{ margin: '10px' }}>
+							<source src="135.mp4" type="video/mp4" />
+							Your browser does not support the video tag.
 						</video>
 					</CardContent>
 					<CardFooter>
@@ -105,20 +106,20 @@ export default function Home() {
 				</Card>
 			</div>
 			<div className="flex flex-col xl:flex-row justify-center items-center gap-4 w-3/4 self-center">
-				<img src="/web-parcel-dist.png" alt="" width={"512px"} height={"512px"}/>
-				<CollectionInfo/>
+				<img src="/web-parcel-dist.png" alt="" width={"512px"} height={"512px"} />
+				<CollectionInfo />
 			</div>
 			{/* Lower Cards */}
-			<div className="flex flex-row justify-center overflow-x-auto overscroll-auto md:overscroll-contain">
+			<div className="flex flex-row justify-center overflow-x-auto overscroll-auto md:overscroll-contain w-3/4 self-center">
 				<Card>
 					<CardHeader>
 						<CardTitle>maomao Originals #009</CardTitle>
 						<CardDescription>???</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
-						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
-							<source src="009.mp4" type="video/mp4"/>
-								Your browser does not support the video tag.
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{ margin: '10px' }}>
+							<source src="009.mp4" type="video/mp4" />
+							Your browser does not support the video tag.
 						</video>
 					</CardContent>
 					<CardFooter>
@@ -132,9 +133,9 @@ export default function Home() {
 						<CardDescription>???</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
-						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
-							<source src="021.mp4" type="video/mp4"/>
-								Your browser does not support the video tag.
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{ margin: '10px' }}>
+							<source src="021.mp4" type="video/mp4" />
+							Your browser does not support the video tag.
 						</video>
 					</CardContent>
 					<CardFooter>
@@ -148,9 +149,9 @@ export default function Home() {
 						<CardDescription>???</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
-						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
-							<source src="050.mp4" type="video/mp4"/>
-								Your browser does not support the video tag.
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{ margin: '10px' }}>
+							<source src="050.mp4" type="video/mp4" />
+							Your browser does not support the video tag.
 						</video>
 					</CardContent>
 					<CardFooter>
@@ -164,9 +165,9 @@ export default function Home() {
 						<CardDescription>???</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
-						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
-							<source src="065.mp4" type="video/mp4"/>
-								Your browser does not support the video tag.
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{ margin: '10px' }}>
+							<source src="065.mp4" type="video/mp4" />
+							Your browser does not support the video tag.
 						</video>
 					</CardContent>
 					<CardFooter>
@@ -180,9 +181,9 @@ export default function Home() {
 						<CardDescription>???</CardDescription>
 					</CardHeader>
 					<CardContent className="flex flex-col items-center">
-						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{margin: '10px'}}>
-							<source src="317.mp4" type="video/mp4"/>
-								Your browser does not support the video tag.
+						<video className="rounded-lg" width="256" height="256" controls autoPlay muted loop style={{ margin: '10px' }}>
+							<source src="317.mp4" type="video/mp4" />
+							Your browser does not support the video tag.
 						</video>
 					</CardContent>
 					<CardFooter>
@@ -191,17 +192,23 @@ export default function Home() {
 					</CardFooter>
 				</Card>
 			</div>
+			<div className="flex flex-col xl:flex-row justify-center items-center gap-4 w-3/4 self-center">
+				<img src="/future.png" alt="" width={"512px"} height={"512px"} />
+				<Future/>
+			</div>
+			{/* Footer */}
 			<div className="flex items-center flex-col space-y-8">
 				<h1 className={`${quando.className} text-sm text-center`}>You wanna be here</h1>
 				<div className="flex flex-row justify-center gap-2">
 					<a href="https://t.me/lovelylooop" target="_blank">
-						<img src="telegram.svg" alt="" width={"32px"} height={"32px"}/>
+						<img src="telegram.svg" alt="" width={"32px"} height={"32px"} />
 					</a>
 					<a href="https://discord.com/invite/pZ2jYXU2Us" target="_blank">
-						<img src="discord.svg" alt="" width={"32px"} height={"32px"}/>
+						<img src="discord.svg" alt="" width={"32px"} height={"32px"} />
 					</a>
 				</div>
 			</div>
+			
 		</main>
 	);
 }
