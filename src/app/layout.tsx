@@ -11,7 +11,7 @@ const quando = Quando({
 
 export const metadata: Metadata = {
   title: "lovelylooop",
-  description: "",
+  description: "Just a lovely WEB3 brand! Play your favorite WEB3 and WEB2 games on lovelylooop. All WEB3 creators are invited! Support lovelylooop by following us on social media, buying our merch and playing our games. Have a blessed day! Much love <3",
   icons: {
     icon: "/icons/icon.png",
   },
