@@ -5,9 +5,9 @@ export default function Future() {
 	return (
 		<div className='max-w-4xl w-3/4 space-y-6'>
 			<div className="flex flex-col gap-2 justify-left items-center md:flex-row">
-				<div className="size-4 bg-violet rounded-sm min-w-4 min-h-4"></div>
-				<div className="size-4 bg-blue rounded-sm min-w-4 min-h-4"></div>
-				<div className="size-4 bg-yellow rounded-sm min-w-4 min-h-4"></div>
+				<div className="size-4 bg-violet rounded-full min-w-4 min-h-4 border-2 border-black"></div>
+				<div className="size-4 bg-blue rounded-full min-w-4 min-h-4 border-2 border-black"></div>
+				<div className="size-4 bg-yellow rounded-full min-w-4 min-h-4 border-2 border-black"></div>
 				<h1 className="text-4xl font-bold text-center">So, what&apos;s coming in the nearest future?</h1>
 			</div>
 			<ul className="list-disc justify-center list-inside">

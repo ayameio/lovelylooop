@@ -21,7 +21,7 @@ export default function Home() {
 			<Navbar />
 			<div className="flex justify-center">
 				{/* <img src="/lll-2.png" alt="" width={"512px"} height={"512px"}/> */}
-				<img src="/bubbles-4.svg" alt="" width={"1024px"} height={"1024px"} />
+				<img src="/icon-lll-2.svg" alt="" width={"1024px"} height={"1024px"} />
 				{/* <img src="/lll-4.svg" alt=""/> */}
 			</div>
 			<About></About>
@@ -193,7 +193,7 @@ export default function Home() {
 				</Card>
 			</div>
 			<div className="flex flex-col xl:flex-row justify-center items-center gap-4 w-3/4 self-center">
-				<Future/>
+				<Future />
 				<img src="/future.png" alt="" width={"512px"} height={"512px"} />
 			</div>
 			{/* Footer */}
@@ -204,11 +204,11 @@ export default function Home() {
 						<img src="telegram.svg" alt="" width={"32px"} height={"32px"} />
 					</a>
 					<a href="https://discord.com/invite/pZ2jYXU2Us" target="_blank">
-						<img src="discord.svg" alt="" width={"32px"} height={"32px"} />
+						<img src="discord.svg" alt="" width={"32px"} height={"32px"}/>
 					</a>
 				</div>
 			</div>
-			
+
 		</main>
 	);
 }

@@ -6,13 +6,10 @@ export default function CollectionInfo() {
 		<div className="flex justify-center items-center">
 			<div className="max-w-4xl w-3/4 space-y-6">
 				<div className="flex flex-col gap-2 justify-left items-center md:flex-row">
-					<div className="size-4 bg-red rounded-sm min-w-4 min-h-4"></div>
-					<div className="size-4 bg-blue rounded-sm min-w-4 min-h-4"></div>
-					<div className="size-4 bg-violet rounded-sm min-w-4 min-h-4"></div>
+					<div className="size-4 bg-red rounded-full min-w-4 min-h-4 border-2 border-black"></div>
+					<div className="size-4 bg-blue rounded-full min-w-4 min-h-4 border-2 border-black"></div>
+					<div className="size-4 bg-violet rounded-full min-w-4 min-h-4 border-2 border-black"></div>
 				<h1 className="text-4xl font-bold text-center">What&apos;s maomao Originals?</h1>
-				</div>
-				<div className="flex flex-row">
-					<h2 className={`${quando.className} text-lg text-left`}>Description</h2>
 				</div>
 				<p className={`${nunito_sans.className} text-gray-700 text-sm`}>
 					maomao Originals is an animated collection made by lovelylooop and it&apos;s the first 888 items in maomao. It consists of Wearables, Consumables, Keys, Loot Boxes, Gemstones, Goods and Materials. Each of these types of items have their own purpose, functionality, rarity and attributes. You can see a few of them above.

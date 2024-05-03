@@ -5,9 +5,9 @@ export default function About() {
 		<div className="flex justify-center items-center">
 			<div className='max-w-4xl w-3/4 space-y-6'>
 				<div className="flex flex-col gap-2 justify-left items-center md:flex-row">
-					<div className="size-4 bg-yellow rounded-sm min-w-4 min-h-4"></div>
-					<div className="size-4 bg-green rounded-sm min-w-4 min-h-4"></div>
-					<div className="size-4 bg-pink rounded-sm min-w-4 min-h-4"></div>
+					<div className="size-4 bg-yellow rounded-full min-w-4 min-h-4 border-2 border-black"></div>
+					<div className="size-4 bg-green rounded-full min-w-4 min-h-4 border-2 border-black"></div>
+					<div className="size-4 bg-pink rounded-full min-w-4 min-h-4 border-2 border-black"></div>
 					<h1 className="text-4xl font-bold text-center">About lovelylooop</h1>
 				</div>
 				<p className={`${nunito_sans.className} text-sm`}>
