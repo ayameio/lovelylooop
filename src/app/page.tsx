@@ -25,6 +25,7 @@ export default function Home() {
 				{/* <img src="/lll-4.svg" alt=""/> */}
 			</div>
 			<About></About>
+			<img src="/sc-top.png"/>
 			{/* Upper Cards */}
 			<div className="flex flex-row justify-center overflow-x-auto overscroll-auto md:overscroll-contain w-3/4 self-center">
 				<Card>
@@ -109,6 +110,7 @@ export default function Home() {
 				<img src="/web-parcel-dist.png" alt="" width={"512px"} height={"512px"} />
 				<CollectionInfo />
 			</div>
+			<img src="/sc-middle.png"/>
 			{/* Lower Cards */}
 			<div className="flex flex-row justify-center overflow-x-auto overscroll-auto md:overscroll-contain w-3/4 self-center">
 				<Card>
@@ -196,6 +198,7 @@ export default function Home() {
 				<Future />
 				<img src="/future.png" alt="" width={"512px"} height={"512px"} />
 			</div>
+			<img src="/sc-bottom.png"/>
 			{/* Footer */}
 			<div className="flex items-center flex-col space-y-8">
 				<h1 className={`${quando.className} text-sm text-center`}>You wanna be here</h1>
