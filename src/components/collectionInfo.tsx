@@ -32,6 +32,7 @@ export default function CollectionInfo() {
 					<Badge>Starter Loot</Badge>
 					<Badge>Revenue Sharing</Badge>
 					<Badge>Incentivized Test Realm</Badge>
+					<Badge>Free Mint Future Collections</Badge>
 				</div>
 				<h2 className={`${quando.className} text-lg text-left`}>Mint Details</h2>
 				<div className="flex flex-row flex-wrap justify-left gap-2">
