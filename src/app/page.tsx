@@ -14,15 +14,17 @@ import Head from "next/head";
 import About from "@/components/about";
 import CollectionInfo from "@/components/collectionInfo";
 import Future from "./future";
+import Showcase from "./showcase";
+import AnotherNavbar from "@/components/anothernavbar";
 
 export default function Home() {
 	return (
 		<main className="flex flex-col space-y-16 mb-16">
-			<Navbar />
+			{/* <Navbar /> */}
+			<AnotherNavbar></AnotherNavbar>
+		{/* <Showcase></Showcase> */}
 			<div className="flex justify-center">
-				{/* <img src="/lll-2.png" alt="" width={"512px"} height={"512px"}/> */}
 				<img src="/donut-logo-svg.svg" alt="" width={"1024px"} height={"1024px"} />
-				{/* <img src="/lll-4.svg" alt=""/> */}
 			</div>
 			<About></About>
 			<img src="/sc-top.png"/>
