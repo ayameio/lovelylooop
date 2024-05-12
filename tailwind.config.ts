@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      dropShadow: {
+        'md': '4px 4px 0px rgba(0, 0, 0, 0.25)'
+      },
       colors: {
         pink: "rgb(var(--pink))",
         green: "rgb(var(--green))",

@@ -65,7 +65,7 @@ export default function Component() {
 								onChange={handleInputChange} />
 						</div>
 						<p>{message}</p>
-						<Button type="button" onClick={handleButtonClick}>Check</Button>
+						<Button className="bg-violet hover:text-violet hover:bg-white hover:border-violet border-2" type="button" onClick={handleButtonClick}>Check</Button>
 					</form>
 				</CardContent>
 			</Card>
