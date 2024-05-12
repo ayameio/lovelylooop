@@ -34,11 +34,11 @@ export default function Home() {
 					</div>
 					<div className="rounded-lg inset-0 bg-[url('/sc-middle.png')] bg-cover bg-center bg-no-repeat w-3/4 max-w-4xl h-32 drop-shadow-md" />
 					<div className='max-w-4xl w-3/4 space-y-6 text-white'>
-						maomao is an innovative WEB3 game. It’s hybrid of Farmville, Auto Battle, Tycoon, Turn-based strategy and Tower Defense.
+						maomao is an innovative WEB3 game. It&apos;s hybrid of Farmville, Auto Battle, Tycoon, Turn-based strategy and Tower Defense.
 
 						With dedicated development since late 2023, maomao is now nearing completion, with a test realm release scheduled for this summer.
 
-						This game is the lovelylooop’s first flagship product and has the biggest priority.
+						This game is the lovelylooop&apos;s first flagship product and has the biggest priority.
 						However, many mini-games will be continuously released on Telegram gaming platform to bring as much exposure to our brand.
 
 						Learn more about the game in the Docs page.
@@ -53,7 +53,7 @@ export default function Home() {
 					<div className="flex flex-row justify-evenly gap-8 max-w-4xl w-3/4">
 						<div id="about-maomao-originals-nft" className="flex flex-col w-1/2 gap-5 text-white">
 							<p id="description">
-								maomao Originals is the animated (and most important) collection made by lovelylooop and it's the first 888 items in maomao.
+								maomao Originals is the animated (and most important) collection made by lovelylooop and it&apos;s the first 888 items in maomao.
 								It consists of Wearables, Consumables, Keys, Loot Boxes, Gemstones, Goods and Materials. Each of these types of items have their own purpose, functionality, rarity and attributes.
 							</p>
 							<h2 className={`${fredoka.className} text-lg text-left font-bold`}>Utility</h2>
@@ -100,15 +100,15 @@ export default function Home() {
 						</div>
 						<div id="season-one">
 							<h3 className="text-2xl font-bold">Finalize Season 1 Development</h3>
-							<p>There’s still a bit of work to do on Season 1. However it’s only minor things like fixing audio, particle effects and combining individual game components in an organized manner.</p>
+							<p>There’s still a bit of work to do on Season 1. However it&apos;s only minor things like fixing audio, particle effects and combining individual game components in an organized manner.</p>
 						</div>
 						<div id="test-realm">
 							<h3 className="text-2xl font-bold">Incentivized Test Realm Release</h3>
-							<p>After finalizing development, we’ll release the Incentivized Test Realm for holders of maomao Originals, and second testing phase to the public.</p>
+							<p>After finalizing development, we&apos;ll release the Incentivized Test Realm for holders of maomao Originals, and second testing phase to the public.</p>
 						</div>
 						<div id="maomao-avatars">
 							<h3 className="text-2xl font-bold">Creation of maomao Avatars</h3>
-							<p>While the testing phase is running, we’ll be actively working on maomao Avatars collection.</p>
+							<p>While the testing phase is running, we&apos;ll be actively working on maomao Avatars collection.</p>
 						</div>
 						<div id="web2-web3-release">
 							<h3 className="text-2xl font-bold">Release maomao for WEB2 and WEB3 + maomao Avatars Mint</h3>
@@ -133,7 +133,7 @@ export default function Home() {
 					<div className='max-w-4xl w-3/4 space-y-6'>
 						<h1 className="text-7xl font-bold  drop-shadow-md text-stroke-1">Join our community!</h1>
 						<p>We are a Telegram community and we have three Telegram channels for public announcements, community and holders.
-							I give zero fux about Discord. It’s a trash, slow, overrated app and I don’t like it at all. Sorry, not sorry.</p>
+							I give zero fux about Discord. It&apos;s a trash, slow, overrated app and I don&apos;t like it at all. Sorry, not sorry.</p>
 					</div>
 					<div id="telegram-container" className="flex flex-row gap-8 text-xs">
 						<div id="telegram-item-yellow" className="flex flex-col gap-2 text-white font-bold justify-center hover:text-yellow duration-100">
