@@ -30,7 +30,7 @@ export default function Home() {
 			<div id="maomao-about">
 				<div className="flex flex-col justify-center items-center gap-8">
 					<div className='max-w-4xl w-3/4 space-y-6'>
-						<h1 className="text-7xl font-bold text-white drop-shadow-md text-stroke-1">maomao</h1>
+						<h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-md text-stroke-1">maomao</h1>
 					</div>
 					<div className="rounded-lg inset-0 bg-[url('/sc-middle.png')] bg-cover bg-center bg-no-repeat w-3/4 max-w-4xl h-32 drop-shadow-md" />
 					<div className='max-w-4xl w-3/4 space-y-6 text-white'>
@@ -48,10 +48,10 @@ export default function Home() {
 			<div id="maomao-originals-nft">
 				<div className="flex flex-col justify-center items-center gap-8">
 					<div className='max-w-4xl w-3/4 space-y-6'>
-						<h1 className="text-7xl font-bold text-white drop-shadow-md text-stroke-1">maomao Originals NFT</h1>
+						<h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-md text-stroke-1">maomao Originals NFT</h1>
 					</div>
-					<div className="flex flex-row justify-evenly gap-8 max-w-4xl w-3/4">
-						<div id="about-maomao-originals-nft" className="flex flex-col w-1/2 gap-5 text-white">
+					<div className="flex flex-col md:flex-row justify-evenly gap-8 max-w-4xl w-3/4">
+						<div id="about-maomao-originals-nft" className="flex flex-col md:w-1/2 gap-5 text-white">
 							<p id="description">
 								maomao Originals is the animated (and most important) collection made by lovelylooop and it&apos;s the first 888 items in maomao.
 								It consists of Wearables, Consumables, Keys, Loot Boxes, Gemstones, Goods and Materials. Each of these types of items have their own purpose, functionality, rarity and attributes.
@@ -78,7 +78,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div id="nft-showcase" className="flex justify-center">
-				<div className="flex flex-row justify-between max-w-4xl w-3/4">
+				<div className="flex flex-row justify-between max-w-4xl w-3/4 overflow-auto gap-2 p-2">
 					<img src="/artboard-1.png" alt="" className="rounded-lg size-32 drop-shadow-md" />
 					<img src="/artboard-13.png" alt="" className="rounded-lg size-32 drop-shadow-md" />
 					<img src="/artboard-3.png" alt="" className="rounded-lg size-32 drop-shadow-md" />
@@ -89,7 +89,7 @@ export default function Home() {
 			<div id="year-ahead-schedule">
 				<div className="flex flex-col justify-center items-center gap-8 text-white">
 					<div className='max-w-4xl w-3/4 space-y-6'>
-						<h1 className="text-7xl font-bold text-stroke-1 drop-shadow-md">A year ahead schedule</h1>
+						<h1 className="text-5xl md:text-7xl font-bold text-stroke-1 drop-shadow-md">A year ahead schedule</h1>
 						<div id="mint-maomao-originals">
 							<h3 className="text-2xl font-bold">Mint maomao Originals</h3>
 							<p>The first stepping stone in making lovelylooop successful, is to sell out maomao Originals. This will ensure development progress throughout whole 2024.</p>
@@ -131,30 +131,30 @@ export default function Home() {
 			<div id="join-our-community">
 				<div className="flex flex-col justify-center items-center gap-8 text-white">
 					<div className='max-w-4xl w-3/4 space-y-6'>
-						<h1 className="text-7xl font-bold  drop-shadow-md text-stroke-1">Join our community!</h1>
+						<h1 className="text-5xl md:text-7xl font-bold  drop-shadow-md text-stroke-1">Join our community!</h1>
 						<p>We are a Telegram community and we have three Telegram channels for public announcements, community and holders.
 							I give zero fux about Discord. It&apos;s a trash, slow, overrated app and I don&apos;t like it at all. Sorry, not sorry.</p>
 					</div>
-					<div id="telegram-container" className="flex flex-row gap-8 text-xs">
-						<div id="telegram-item-yellow" className="flex flex-col gap-2 text-white font-bold justify-center hover:text-yellow duration-100">
+					<div id="telegram-container" className="justify-center flex flex-wrap gap-8 text-xs">
+						<div id="telegram-item-yellow" className="flex flex-col gap-2 text-white font-bold justify-center hover:scale-90 duration-150 hover:text-yellow">
 							<a href="https://t.me/lovelylooopCommunity" target="_blank">
-								<img src="/donut-logo-yellow.png" alt="" className="border-2 border-black size-16 rounded-xl drop-shadow-md" />
+								<img src="/donut-logo-yellow.png" alt="" className="border-2 border-black size-16 rounded-xl drop-shadow-md"/>
 							</a>
 							<p className="text-center">Community</p>
 						</div>
-						<div id="telegram-item-violet" className="flex flex-col gap-2 text-white font-bold justify-center hover:text-yellow duration-100">
+						<div id="telegram-item-violet" className="flex flex-col gap-2 text-white font-bold justify-center hover:scale-90 duration-150 hover:text-yellow">
 							<a href="https://t.me/lovelylooop" target="_blank">
 								<img src="/donut-logo-violet.png" alt="" className="border-2 border-black size-16 rounded-xl drop-shadow-md" />
 							</a>
 							<p className="text-center">Holders</p>
 						</div>
-						<div id="telegram-item-white" className="flex flex-col gap-2 text-white font-bold justify-center hover:text-yellow duration-100">
+						<div id="telegram-item-white" className="flex flex-col gap-2 text-white font-bold justify-center hover:scale-90 duration-150 hover:text-yellow">
 							<a href="https://t.me/lovelylooop" target="_blank">
 								<img src="/donut-logo-white.png" alt="" className="border-2 border-black size-16 rounded-xl drop-shadow-md" />
 							</a>
 							<p className="text-center">Announcer</p>
 						</div>
-						<div id="twitter" className="flex flex-col gap-2 text-white font-bold justify-center hover:text-yellow duration-100">
+						<div id="twitter" className="flex flex-col gap-2 text-white font-bold justify-center hover:scale-90 duration-150 hover:text-yellow">
 							<a href="https://x.com/lovelylooop" target="_blank">
 								<img src="/donut-logo-black.png" alt="" className="border-2 border-black size-16 rounded-xl drop-shadow-md" />
 							</a>
