@@ -22,6 +22,8 @@ const config = {
         'md': '4px 4px 0px rgba(0, 0, 0, 0.25)'
       },
       colors: {
+        cream: "hsl(var(--cream))",
+        dark: "hsl(var(--dark))",
         pink: "rgb(var(--pink))",
         green: "rgb(var(--green))",
         yellow: "rgb(var(--yellow))",
@@ -67,6 +69,12 @@ const config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      animation: {
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
+        "typewriter": 'typewriter 2s steps(11) forwards',
+        "caret": 'typewriter 2s steps(11) forwards, blink 1s steps(11) infinite 2s',
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -76,10 +84,28 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-      },
-      animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
+        "typewriter": {
+          to: {
+            left: '100%',
+          },
+        },
+        "blink": {
+          '0%': {
+            opacity: '0',
+          },
+          '0.1%': {
+            opacity: '1',
+          },
+          '50%': {
+            opacity: '1',
+          },
+          '50.1%': {
+            opacity: '0',
+          },
+          '100%': {
+            opacity: '0',
+          },
+        },
       },
     },
   },
