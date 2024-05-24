@@ -15,10 +15,10 @@ export default function Home() {
 						<img src="/telegram.svg" width={32} ></img>
 					</a>
 					<a className="self-center" href="https://x.com/lovelylooop" target="_blank">
-						<img src="/x.svg" width={32} ></img>
+						<img src="/X.svg" width={32} ></img>
 					</a>
 					<a className="self-center" href="https://x.com/supermalina_" target="_blank">
-						<img src="/x.svg" width={32} ></img>
+						<img src="/X.svg" width={32} ></img>
 					</a>
 				</span>
 				<img src="/anime-skatergirl-fit.png" alt="" width={"512"} height={"512"} />
