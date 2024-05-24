@@ -11,9 +11,9 @@ export default function Future() {
 				<div className="gap-2 flex flex-col justify-center">
 					<p className={`${rubik.className}`}>1. Mint maomao Originals</p>
 					<p className={`${rubik.className}`}>2. Launch our community token $LOV</p>
-					<p className={`${rubik.className}`}>3. Sequentially deploy monetized mini-games to Telegram Gaming Platform</p>
+					<p className={`${rubik.className}`}>3. Sequentially deploy fragments of maomao as monetized mini-games to Telegram Gaming Platform</p>
 					<p className={`${rubik.className}`}>4. Build a super strong community and presence on social media</p>
-					<p className={`${rubik.className}`}>5. Mint Looopies (coming sooon)</p>
+					<p className={`${rubik.className}`}>5. Mint Looopies (coming sooon!)</p>
 					<p className={`${rubik.className}`}>6. Brand marketing and establishing partnerships</p>
 					<p className={`${rubik.className}`}>7. Build a lovelylooop store for digital and physical products</p>
 				</div>
