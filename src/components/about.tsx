@@ -9,8 +9,7 @@ export default function About() {
 				</p>
 				<p className={`${fredoka.className} text-sm text-white`}>
 					lovelylooop and maomao was single-handedly built by infamous <a target='_blank' href='https://www.twitter.com/supermalina_' className='underline'>@supermalina_</a>.
-				</p>
-				
+				</p>				
 			</div>
 		</div>
 	)

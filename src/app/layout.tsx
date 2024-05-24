@@ -11,9 +11,9 @@ const quando = Quando({
 
 export const metadata: Metadata = {
   title: "lovelylooop.xyz",
-  description: "We love Web3!",
+  description: "Just a web3 brand, building fun stuff... on TON",
   icons: {
-    icon: "icon.png",
+    icon: "looop.png",
   },
 };
 
