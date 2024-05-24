@@ -29,6 +29,7 @@ export default function About() {
 					Considering how fast Telegram and TON grows, and it&apos;s ways of monetizing products, it&apos;s gonna be very rewarding for early birds who stick around.
 				</p>
 				<h1 className={`${rubik.className} text-xl text-black font-bold`}>Peek into maomao world</h1>
+				<img className="w-full" src="snapshot.png" alt="" />
 				<a href="https://vimeo.com/948220171?share=copy" target="_blank">Video Link</a>
 			</div>
 		</main>

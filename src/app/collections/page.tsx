@@ -36,9 +36,12 @@ export default function Collections() {
 				</div>
 				<h2 className={`${rubik.className} text-lg text-left font-bold`}>Mint Details</h2>
 				<div className="flex flex-row flex-wrap justify-left gap-2">
-					<Badge>May 2?th, 2024</Badge>
+					<Badge>May/June, 2024</Badge>
 					<Badge>888</Badge>
-					<Badge>10 TON</Badge>
+					<Badge className="gap-2">
+						<p>10 TON</p>
+						<img className="size-4" src="ton_symbol.svg" alt="" />
+					</Badge>
 					<Badge>4.4%</Badge>
 				</div>
 			</div>
