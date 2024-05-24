@@ -29,16 +29,7 @@ export default function About() {
 					Considering how fast Telegram and TON grows, and it&apos;s ways of monetizing products, it&apos;s gonna be very rewarding for early birds who stick around.
 				</p>
 				<h1 className={`${rubik.className} text-xl text-black font-bold`}>Peek into maomao world</h1>
-				<video className="rounded-xl w-full" controls preload="auto">
-					<source src="/play.mp4" type="video/mp4" />
-					<track
-						src="/path/to/captions.vtt"
-						kind="subtitles"
-						srcLang="en"
-						label="English"
-					/>
-					Your browser does not support the video tag.
-				</video>
+				<a href="https://vimeo.com/948220171?share=copy" target="_blank">Video Link</a>
 			</div>
 		</main>
 	)
