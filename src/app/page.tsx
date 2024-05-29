@@ -1,28 +1,55 @@
+"use client"
 import { rubik } from "@/app/fonts"
 import AnotherNavbar from "@/components/anothernavbar";
+import { Button } from "@/components/ui/button";
+import { useRef, useState } from "react";
+
+
 
 export default function Home() {
 	return (
-		<main className="flex flex-col bg-cream max-w-full text-sm">
-			<AnotherNavbar></AnotherNavbar>
-			<div className={`flex flex-col`}>
-				<h1 className={`${rubik.className} pt-32 text-xl font-medium text-center`}>Just a web3 brand, building fun things... on TON</h1>
-				<div className="flex justify-center py-8">
-					<img src="/logo.png" alt="" className="object-fit" width={"256"} height={"256"}/>
+		<div className={`relative w-full h-screen ${rubik.className}`}>
+			<img
+				alt="Background"
+				className="absolute inset-0 w-full h-full object-cover"
+				height="1080"
+				src="/LOVELYLOOOP.png"
+				style={{
+					aspectRatio: "1920/1080",
+					objectFit: "cover",
+				}}
+				width="1920"
+			/>
+			<div className="relative z-10 flex flex-col items-center justify-center h-full px-4 md:px-6 lg:px-8 gap-4">
+				<div className="grid grid-cols-3 justify-center gap-4 w-full max-w-lg">
+					<div></div>
+					<Button className="text-md shadow-[0_0_20px_rgba(0,0,0,0.5)] bg-white/50 text-black hover:bg-white transition-colors duration-300 h-12 rounded-xl"><a href="/about" target="_blank" className="text-sm">About</a></Button>
+					<div></div>
 				</div>
-				<span className="self-center flex flex-row gap-4">
-					<a className="self-center" href="https://t.me/lovelylooop" target="_blank">
-						<img src="/telegram.svg" width={32} ></img>
+				<div className="grid grid-cols-3 gap-4 w-full max-w-lg">
+					<Button className="shadow-[0_0_20px_rgba(0,0,0,0.5)] bg-white/50 text-black hover:bg-white transition-colors duration-300 h-12 rounded-xl">Wallpapers</Button>
+					<Button className="shadow-[0_0_20px_rgba(0,0,0,0.5)] bg-white/50 text-black hover:bg-white transition-colors duration-300 h-12 rounded-xl">Collections</Button>
+					<Button className="shadow-[0_0_20px_rgba(0,0,0,0.5)] bg-white/50 text-black hover:bg-white transition-colors duration-300 h-12 rounded-xl">Token</Button>
+				</div>
+				<div className="grid grid-cols-2 gap-4 w-full max-w-lg">
+					<Button className="font-bold text-md shadow-[0_0_20px_rgba(0,0,0,0.5)] bg-white/50 text-black hover:bg-white transition-colors duration-300 h-12 rounded-xl"><a href="https://t.me/lovelylooopBot" target="_blank">@lovelylooopBot</a></Button>
+					<Button className="font-bold text-md shadow-[0_0_20px_rgba(0,0,0,0.5)] bg-white/50 text-black hover:bg-white transition-colors duration-300 h-12 rounded-xl">Mini-Games</Button>
+				</div>
+				<div className="mt-6 h-6 rounded-xl bg-white font-bold text-center text-lg text-black flex flex-row justify-center items-center text-sm p-4 shadow-[0_0_20px_rgba(0,0,0,0.5)] bg-black/50 text-white">
+					<p>[$LYL] Token Address</p>
+				</div>
+				<div className="h-12 rounded-xl w-full max-w-lg shadow-[0_0_20px_rgba(0,0,0,0.5)] bg-black/50 text-white flex flex-col justify-center">
+					<p className="text-sm text-center">EQDSqgy_LJUD9EabMyf4Gdjw1GHWh_cKLcdbOZ3wCCUvoZFx</p>
+				</div>
+				<div className="flex flex-row justify-center gap-4 w-full max-w-lg mt-8">
+					<a href="https://t.me/lovelylooop" target="_blank">
+						<img src="./telegram.svg" alt="" width={"48px"} />
 					</a>
-					<a className="self-center" href="https://x.com/lovelylooop" target="_blank">
-						<img src="/X.svg" width={32} ></img>
+					<a href="https://x.com/lovelylooop" target="_blank">
+						<img src="./x.svg" alt="" width={"48px"} />
 					</a>
-					<a className="self-center" href="https://x.com/supermalina_" target="_blank">
-						<img src="/X.svg" width={32} ></img>
-					</a>
-				</span>
-				<img src="/anime-skatergirl-fit.png" alt="" width={"512"} height={"512"} />
+				</div>
 			</div>
-		</main>
+		</div>
 	);
 }

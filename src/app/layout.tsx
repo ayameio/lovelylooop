@@ -10,10 +10,10 @@ const quando = Quando({
 });
 
 export const metadata: Metadata = {
-  title: "lovelylooop.xyz",
-  description: "Just a web3 brand, building fun stuff... on TON",
+  title: "LOVELYLOOOP.TON",
+  description: "A WEB3 BRAND BUILDING ON TON",
   icons: {
-    icon: "looop.png",
+    icon: "logo.png",
   },
 };
 

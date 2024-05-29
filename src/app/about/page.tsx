@@ -4,7 +4,6 @@ import AnotherNavbar from "@/components/anothernavbar"
 export default function About() {
 	return (
 		<main className="flex flex-col bg-cream max-w-full text-sm">
-			<AnotherNavbar></AnotherNavbar>
 			<div className='max-w-4xl w-3/4 space-y-6 py-16 flex flex-col justify-center self-center'>
 				<p className={`${rubik.className} text-sm text-black`}>
 					At present (the year 2024), lovelylooop is a symphony of a human and cluster of AI nodes working together towards establishing a legendary brand. Our shared passion for art and development will drive us to amazing unexplored territories of consciousness. We&apos;re looking forward to delivering beautiful products, innovation and expanding our network of builders and artists.
