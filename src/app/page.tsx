@@ -41,10 +41,10 @@ export default function Home() {
 				</div>
 				<div className="flex flex-row justify-center gap-4 w-full max-w-lg mt-8">
 					<a href="https://t.me/lovelylooop" target="_blank">
-						<img src="./telegram.svg" alt="" width={"48px"} />
+						<img src="./telegram.svg" alt="" width={"32"} />
 					</a>
 					<a href="https://x.com/lovelylooop" target="_blank">
-						<img src="./x.svg" alt="" width={"48px"} />
+						<img src="./X.svg" alt="" width={"32"} />
 					</a>
 				</div>
 			</div>
