@@ -1,54 +1,140 @@
 "use client"
-import { rubik } from "@/app/fonts"
-import AnotherNavbar from "@/components/anothernavbar";
-import { Button } from "@/components/ui/button";
-import { useRef, useState } from "react";
-
-
+import Navbar from "@/components/navbar";
 
 export default function Home() {
+	const copyToClipboard = (text: string) => {
+		navigator.clipboard.writeText(text).then(() => {
+			console.log('CA copied to clipboard');
+		}).catch(err => {
+			console.error('Failed to copy CA: ' + err);
+		});
+	};
 	return (
-		<div className={`relative w-full h-screen ${rubik.className}`}>
-			<img
-				alt="Background"
-				className="absolute inset-0 w-full h-full object-cover"
-				height="1080"
-				src="/LOVELYLOOOP.png"
-				style={{
-					aspectRatio: "1920/1080",
-					objectFit: "cover",
-				}}
-				width="1920"
-			/>
-			<div className="relative z-10 flex flex-col items-center justify-center h-full px-4 md:px-6 lg:px-8">
-				<div className="bg-white/50 p-12 rounded-lg shadow-[0_0_20px_rgba(0,0,0,0.5)]">
-					<div className="grid grid-cols-3 gap-4 w-full">
-						<Button className="shadow-[0_0_20px_rgba(0,0,0,0.5)] bg-white/50 text-black hover:bg-white transition-colors duration-300 h-12 rounded-xl">Wallpapers</Button>
-						<Button className="shadow-[0_0_20px_rgba(0,0,0,0.5)] bg-white/50 text-black hover:bg-white transition-colors duration-300 h-12 rounded-xl">Collections</Button>
-						<Button className="shadow-[0_0_20px_rgba(0,0,0,0.5)] bg-white/50 text-black hover:bg-white transition-colors duration-300 h-12 rounded-xl">Token</Button>
+		<div className={`flex flex-col gap-12 justify-center pb-12`}>
+			<Navbar></Navbar>
+			<div className={`grid grid-cols-4`}>
+				<div></div>
+				<div className={`col-span-2 flex flex-col gap-12 justify-center`}>
+					<div>
+						<div>
+							<h1 className={`text-xl text-center font-semibold`}>A creative brand, building fun stuff on TON :)</h1>
+						</div>
 					</div>
-					<div className="grid grid-cols-3 gap-4 w-full max-w-lg mt-8">
-						<Button className="text-md shadow-[0_0_20px_rgba(0,0,0,0.5)] bg-white/50 text-black hover:bg-white transition-colors duration-300 h-12 rounded-xl"><a href="/about" target="_blank" className="text-sm">About</a></Button>
-						<Button className="font-bold text-md shadow-[0_0_20px_rgba(0,0,0,0.5)] bg-white/50 text-black hover:bg-white transition-colors duration-300 h-12 rounded-xl"><a href="https://t.me/lovelylooopBot" target="_blank">@lovelylooopBot</a></Button>
-						<Button className="font-bold text-md shadow-[0_0_20px_rgba(0,0,0,0.5)] bg-white/50 text-black hover:bg-white transition-colors duration-300 h-12 rounded-xl">Mini-Games</Button>
+					<div className={`flex flex-row space-x-4 justify-center`}>
+						<div className={`flex flex-col space-y-4`}>
+							<div className={`flex justify-center`}>
+								<h1 className={`text-center text-xs`}>Social Media</h1>
+							</div>
+							<div className={`flex flex-row justify-center gap-4`}>
+								<img className={`size-6`} src="/telegram.svg" alt="" />
+								<img className={`size-6`} src="/X.svg" alt="" />
+							</div>
+						</div>
+						<div className={`space-y-4`}>
+							<div>
+								<h1 className={`text-center text-xs`}>Lovelylooop Bot</h1>
+							</div>
+							<div className={`flex justify-center`}>
+								<img className={`size-6`} src="/telegram.svg" alt="" />
+							</div>
+						</div>
 					</div>
-					<div className="grid grid-cols-3 gap-4 w-full max-w-lg mt-8">
-						<span></span>
-						<Button className="h-8 rounded-xl w-full max-w-lg shadow-[0_0_20px_rgba(0,0,0,0.5)] bg-black/50 text-white flex flex-col justify-center">Token Address</Button>
-						<span></span>
+					<img className={`rounded-lg object-cover h-48`} src="/LOVELYLOOOP.png" alt="" />
+					<div className={`flex flex-col space-y-4`}>
+						<div className={`flex justify-center`}>
+							<h1 className={`text-center`}>Token CA:</h1>
+						</div>
+						<div className={`flex flex-row justify-center gap-4`}>
+							<p className={`align-middle text-ellipsis truncate p-4 bg-white text-black text-center rounded-lg h-12`}>EQDSqgy_LJUD9EabMyf4Gdjw1GHWh_cKLcdbOZ3wCCUvoZFx</p>
+							<img className={`flex justify-center rounded-lg bg-white p-4 size-12`} src="/copy.svg" alt="" />
+						</div>
 					</div>
-					<div className="h-12 rounded-xl w-full max-w-lg shadow-[0_0_20px_rgba(0,0,0,0.5)] bg-black/50 text-white flex flex-col justify-center mt-8">
-						<p className="text-sm text-center">EQDSqgy_LJUD9EabMyf4Gdjw1GHWh_cKLcdbOZ3wCCUvoZFx</p>
+					<div className={`space-y-8`}>
+						<div>
+							<h1 className={`text-center`}>Lovelylooop Items</h1>
+						</div>
+						<div>
+							<p className={`text-xs text-center`}>This is the first 888 items made by Lovelylooop. All items are unique and can be found in all of our Telegram Mini-Games.</p>
+							<p className={`text-xs text-center`}>The collection consists of Wearables, Potions, Scrolls, Keys, Loootboxes and more!</p>
+						</div>
+						<div className={`flex justify-center`}>
+							<div className={`grid grid-cols-2 sm:grid-cols-3 justify-center gap-4`}>
+								<div id="item-card" className={`flex flex-col justify-center`}>
+									<h1 className={`text-center text-sm`}>Chest Armor</h1>
+									<img className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48`} src="ring.png" alt="" />
+								</div>
+								<div id="item-card" className={`flex flex-col justify-center`}>
+									<h1 className={`text-center text-sm`}>Chest Armor</h1>
+									<img className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48`} src="ring.png" alt="" />
+								</div>
+								<div id="item-card" className={`flex flex-col justify-center`}>
+									<h1 className={`text-center text-sm`}>Chest Armor</h1>
+									<img className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48`} src="ring.png" alt="" />
+								</div>
+								<div id="item-card" className={`flex flex-col justify-center`}>
+									<h1 className={`text-center text-sm`}>Chest Armor</h1>
+									<img className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48`} src="ring.png" alt="" />
+								</div>
+								<div id="item-card" className={`flex flex-col justify-center`}>
+									<h1 className={`text-center text-sm`}>Chest Armor</h1>
+									<img className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48`} src="ring.png" alt="" />
+								</div>
+								<div id="item-card" className={`flex flex-col justify-center`}>
+									<h1 className={`text-center text-sm`}>Chest Armor</h1>
+									<img className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48`} src="ring.png" alt="" />
+								</div>
+							</div>
+						</div>
 					</div>
-					<div className="flex flex-row justify-center gap-4 w-full max-w-lg mt-8">
-						<a href="https://t.me/lovelylooop" target="_blank">
-							<img src="./telegram.svg" alt="" width={"32"} />
-						</a>
-						<a href="https://x.com/lovelylooop" target="_blank">
-							<img src="./X.svg" alt="" width={"32"} />
-						</a>
+					<div className={`flex flex-col space-y-4`}>
+						<div className={`flex justify-center`}>
+							<h1 className={`text-center`}>Utilities</h1>
+						</div>
+						<div className={`justify-center flex flex-col gap-4 w-full`}>
+							<div className="self-center text-xs w-24 w-full sm:w-36 md:w-48 p-2 rounded-lg border-2 border-white text-white bg-black text-center">Free Mint Looopies!</div>
+							<div className="self-center text-xs w-24 w-full sm:w-36 md:w-48 p-2 rounded-lg border-2 border-white text-white bg-black text-center">10% Revenue Shared</div>
+							<div className="self-center text-xs w-24 w-full sm:w-36 md:w-48 p-2 rounded-lg border-2 border-white text-white bg-black text-center">Early Access</div>
+						</div>
+					</div>
+					<div className={`flex flex-col space-y-4`}>
+						<div className={`flex justify-center`}>
+							<h1 className={`text-center`}>Mint Info</h1>
+						</div>
+						<div className={`flex flex-col sm:flex-row gap-4 justify-center`}>
+							<p className={`text-sm`}>Date: June 2024</p>
+							<p className={`text-sm`}>Supply: 888</p>
+							<div className={`flex flex-row gap-2 align-center`}>
+								<p className={`text-sm`}>Price WL: 12 TON</p><img className="size-4 place-self-center" src="/ton-16.svg" alt="" />
+							</div>
+							<div className={`flex flex-row gap-2 align-center`}>
+								<p className={`text-sm`}>Price PUB: 20 TON</p><img className="size-4 place-self-center" src="/ton-16.svg" alt="" />
+							</div>
+						</div>
+					</div>
+					<div id="future-map" className={`flex flex-col space-y-4`}>
+						<div className={`flex justify-center`}>
+							<h1 className={`text-xl text-center`}>Future Map</h1>
+						</div>
+						<div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center gap-4`}>
+							<div id="item-card" className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48 bg-white h-8 flex justify-center items-center`}>
+								<h1 className="text-xs text-black text-center">1. Mint Lovelylooop Items</h1>
+							</div>
+							<div id="item-card" className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48 bg-white h-8 flex justify-center items-center`}>
+								<h1 className="text-xs text-black text-center">2. LYL Token Fair-Launch</h1>
+							</div>
+							<div id="item-card" className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48 bg-white h-8 flex justify-center items-center`}>
+								<h1 className="text-xs text-black text-center">3. Deploy Lovelylooop Heroes RPG</h1>
+							</div>
+							<div id="item-card" className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48 bg-white h-8 flex justify-center items-center`}>
+								<h1 className="text-xs text-black text-center">4. Brand marketing</h1>
+							</div>
+							<div id="item-card" className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48 bg-white h-8 flex justify-center items-center`}>
+								<h1 className="text-xs text-black text-center">5. Content creation</h1>
+							</div>
+						</div>
 					</div>
 				</div>
+				<div></div>
 			</div>
 		</div>
 	);

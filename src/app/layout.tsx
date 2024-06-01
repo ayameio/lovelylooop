@@ -3,11 +3,6 @@ import { Fredoka, Quando } from "next/font/google";
 import "./globals.css";
 
 const fredoka = Fredoka({ subsets: ["latin"] });
-const quando = Quando({
-  subsets: ["latin"],
-  weight: "400",
-  variable: '--font-quando'
-});
 
 export const metadata: Metadata = {
   title: "LOVELYLOOOP.TON",
@@ -27,7 +22,7 @@ export default function RootLayout({
       <head>
         <link rel="icon.png" type="image/png" />
       </head>
-      <body className={`${fredoka.className}`}>{children}</body>
+      <body className={`bg-black text-white ${fredoka.className}`}>{children}</body>
     </html>
   );
 }

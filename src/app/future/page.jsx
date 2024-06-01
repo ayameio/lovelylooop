@@ -105,7 +105,7 @@ const WallpaperCard = () => {
 			<div className="relative overflow-hidden rounded-lg">
 				<img
 					alt="Card Image"
-					className="h-full w-full object-cover transition-all duration-300 group-hover:scale-105"
+					className="h-full w-full object-fit transition-all duration-300 group-hover:scale-105"
 					src="/wallpapers/1.png"
 				/>
 				<div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/50 to-transparent p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
