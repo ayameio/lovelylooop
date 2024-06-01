@@ -19,9 +19,9 @@ export default function Home() {
 	return (
 		<div className={`flex flex-col gap-12 justify-center pb-12`}>
 			<Navbar></Navbar>
-			<div className={`grid grid-cols-4`}>
+			<div className={`grid grid-cols-5`}>
 				<div></div>
-				<div className={`col-span-2 flex flex-col gap-12 justify-center`}>
+				<div className={`col-span-3 flex flex-col gap-12 justify-center`}>
 					<div>
 						<div>
 							<h1 className={`text-xl text-center font-semibold`}>A creative brand, building fun stuff on TON :)</h1>
@@ -91,27 +91,27 @@ export default function Home() {
 						<div className={`flex justify-center`}>
 							<div className={`grid grid-cols-2 sm:grid-cols-3 justify-center gap-4`}>
 								<div id="item-card" className={`flex flex-col justify-center`}>
-									<h1 className={`text-center text-sm`}>Chest Armor</h1>
+									<h1 className={`text-center text-sm`}>Off Hand</h1>
 									<img className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48`} src="60.png" alt="" />
 								</div>
 								<div id="item-card" className={`flex flex-col justify-center`}>
-									<h1 className={`text-center text-sm`}>Chest Armor</h1>
+									<h1 className={`text-center text-sm`}>Ring</h1>
 									<img className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48`} src="61.png" alt="" />
 								</div>
 								<div id="item-card" className={`flex flex-col justify-center`}>
-									<h1 className={`text-center text-sm`}>Chest Armor</h1>
+									<h1 className={`text-center text-sm`}>Amulet</h1>
 									<img className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48`} src="62.png" alt="" />
 								</div>
 								<div id="item-card" className={`flex flex-col justify-center`}>
-									<h1 className={`text-center text-sm`}>Chest Armor</h1>
+									<h1 className={`text-center text-sm`}>Weapon</h1>
 									<img className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48`} src="63.png" alt="" />
 								</div>
 								<div id="item-card" className={`flex flex-col justify-center`}>
-									<h1 className={`text-center text-sm`}>Chest Armor</h1>
+									<h1 className={`text-center text-sm`}>Trinket</h1>
 									<img className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48`} src="64.png" alt="" />
 								</div>
 								<div id="item-card" className={`flex flex-col justify-center`}>
-									<h1 className={`text-center text-sm`}>Chest Armor</h1>
+									<h1 className={`text-center text-sm`}>Dungeon Key</h1>
 									<img className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48`} src="66.png" alt="" />
 								</div>
 							</div>
