@@ -24,7 +24,7 @@ export default function Home() {
 				<div className={`col-span-3 flex flex-col gap-12 justify-center`}>
 					<div>
 						<div>
-							<h1 className={`text-xl text-center font-semibold`}>A creative brand, building fun stuff on TON :)</h1>
+							<h1 className={`text-xl text-center font-semibold`}>A creative brand, building a TON of fun ^^</h1>
 						</div>
 					</div>
 					<div className={`flex flex-row space-x-4 justify-center`}>
