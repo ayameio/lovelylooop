@@ -123,7 +123,7 @@ export default function Home() {
 						</div>
 						<div className={`justify-center flex flex-col gap-4 w-full`}>
 							<div className="self-center text-xs w-24 w-full sm:w-36 md:w-48 p-2 rounded-lg border-2 border-white text-white bg-black text-center">Free Mint Looopies!</div>
-							<div className="self-center text-xs w-24 w-full sm:w-36 md:w-48 p-2 rounded-lg border-2 border-white text-white bg-black text-center">10% Shared Revenue</div>
+							<div className="self-center text-xs w-24 w-full sm:w-36 md:w-48 p-2 rounded-lg border-2 border-white text-white bg-black text-center">8% Shared Revenue</div>
 							<div className="self-center text-xs w-24 w-full sm:w-36 md:w-48 p-2 rounded-lg border-2 border-white text-white bg-black text-center">Early Access to Games</div>
 						</div>
 					</div>
@@ -135,10 +135,10 @@ export default function Home() {
 							<p className={`text-sm`}>Date: June 2024</p>
 							<p className={`text-sm`}>Supply: 888</p>
 							<div className={`flex flex-row gap-2 align-center`}>
-								<p className={`text-sm`}>Price WL: 12 TON</p><img className="size-4 place-self-center" src="/ton-16.svg" alt="" />
+								<p className={`text-sm`}>Price WL: 8 TON</p><img className="size-4 place-self-center" src="/ton-16.svg" alt="" />
 							</div>
 							<div className={`flex flex-row gap-2 align-center`}>
-								<p className={`text-sm`}>Price PUB: 20 TON</p><img className="size-4 place-self-center" src="/ton-16.svg" alt="" />
+								<p className={`text-sm`}>Price PUB: 17 TON</p><img className="size-4 place-self-center" src="/ton-16.svg" alt="" />
 							</div>
 						</div>
 					</div>
@@ -148,19 +148,25 @@ export default function Home() {
 						</div>
 						<div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center gap-4`}>
 							<div id="item-card" className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48 bg-white h-8 flex justify-center items-center`}>
-								<h1 className="text-xs text-black text-center">1. Mint Lovelylooop Items</h1>
+								<h1 className="text-xs text-black text-center">Mint Lovelylooop Items</h1>
 							</div>
 							<div id="item-card" className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48 bg-white h-8 flex justify-center items-center`}>
-								<h1 className="text-xs text-black text-center">2. LYL Token Fair-Launch</h1>
+								<h1 className="text-xs text-black text-center">LYL Token Launch</h1>
 							</div>
 							<div id="item-card" className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48 bg-white h-8 flex justify-center items-center`}>
-								<h1 className="text-xs text-black text-center">3. Deploy Lovelylooop Heroes RPG</h1>
+								<h1 className="text-xs text-black text-center">Deploy Lovelylooop Heroes RPG</h1>
 							</div>
 							<div id="item-card" className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48 bg-white h-8 flex justify-center items-center`}>
-								<h1 className="text-xs text-black text-center">4. Brand marketing</h1>
+								<h1 className="text-xs text-black text-center">Brand Expansion</h1>
 							</div>
 							<div id="item-card" className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48 bg-white h-8 flex justify-center items-center`}>
-								<h1 className="text-xs text-black text-center">5. Content creation</h1>
+								<h1 className="text-xs text-black text-center">Content creation</h1>
+							</div>
+							<div id="item-card" className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48 bg-white h-8 flex justify-center items-center`}>
+								<h1 className="text-xs text-black text-center">Mint Looopies</h1>
+							</div>
+							<div id="item-card" className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48 bg-white h-8 flex justify-center items-center`}>
+								<h1 className="text-xs text-black text-center">Mint Pet Looopies</h1>
 							</div>
 						</div>
 					</div>
