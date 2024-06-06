@@ -76,7 +76,7 @@ export default function Home() {
 						<div className={`flex flex-row justify-center gap-4`}>
 							<p className={`align-middle text-ellipsis truncate p-4 bg-white text-black text-center rounded-lg h-12`}>EQDSqgy_LJUD9EabMyf4Gdjw1GHWh_cKLcdbOZ3wCCUvoZFx</p>
 							<button className="" onClick={copyToClipboard}>
-								<img className={`hover:bg-yellow transition duration-150 ease-in-out flex justify-center rounded-lg bg-white p-4 size-12`} src="/copy.svg" alt="" onClick={copyToClipboard}/>
+								<img className={`hover:bg-yellow transition duration-150 ease-in-out flex justify-center rounded-lg bg-white p-4 size-12`} src="/copy.svg" alt="" onClick={copyToClipboard} />
 							</button>
 						</div>
 					</div>
@@ -167,6 +167,19 @@ export default function Home() {
 							</div>
 							<div id="item-card" className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48 bg-white h-8 flex justify-center items-center`}>
 								<h1 className="text-xs text-black text-center">Mint Pet Looopies</h1>
+							</div>
+						</div>
+					</div>
+					<div id="concepts" className={`flex flex-col space-y-4`}>
+						<h1 className={`text-center text-xl`}>Looopies Concept</h1>
+						<div className={`grid grid-cols-1 md:grid-cols-2 justify-center gap-4`}>
+							<div id="item-card" className={`flex flex-col justify-center`}>
+								<h1 className={`text-center text-sm`}>Looopie</h1>
+								<img className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48`} src="looopie.png" alt="" />
+							</div>
+							<div id="item-card" className={`flex flex-col justify-center`}>
+								<h1 className={`text-center text-sm`}>Pet Looopie</h1>
+								<img className={`rounded-lg min-size-24 sm:min-size-36 md:min-size-48`} src="pet-looopie.png" alt="" />
 							</div>
 						</div>
 					</div>
